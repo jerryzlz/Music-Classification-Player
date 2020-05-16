@@ -1,0 +1,27 @@
+{
+  "main_settings": {
+    "dir": "F:\\Code\\New_music\\",
+    "res_dir": "F:\\Code\\New_music\\result\\"
+  },
+  "process_settings": {
+    "sample_rate": 22050,
+    "duration": 30,
+    "segments": 10,
+    "mfcc": 13,
+    "fft": 2048,
+    "hop_length": 512
+  },
+  "genres": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "first_run": "1"
+}
