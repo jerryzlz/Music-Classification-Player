@@ -31,6 +31,7 @@ def del_files(dir_path):
     filename = os.listdir(dir_path)
     for f in filename:
         os.remove(dir_path + f)
+    print("删除完成")
 
 
 def create_dir(dir_path):
@@ -39,8 +40,9 @@ def create_dir(dir_path):
     :param dir_path: 目录路径
     :return:
     """
-    if not os.path.exists(dir_path):
+    if os.path.exists(dir_path) == False:
         os.mkdir(dir_path)
+        print("创建文件夹完成")
 
 
 def create_genres_dir(dir_path, list):
@@ -52,6 +54,7 @@ def create_genres_dir(dir_path, list):
     """
     for l in list:
         create_dir(dir_path + l)
+        print("创建分类文件夹完成")
 
 
 def move_file(source, destination, file_name, label):
@@ -65,6 +68,7 @@ def move_file(source, destination, file_name, label):
     """
     for f in range(len(file_name)):
         shutil.move(source + file_name[f], destination + label[f])
+        print("移动完成")
 
 
 def first_run(status):
