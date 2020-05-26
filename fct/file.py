@@ -1,11 +1,12 @@
-import os, shutil
+import os
+import shutil
 
 
 def dir_name(dir_path):
     """
     转换零时文件夹、输入文件夹路径
     :param dir_path: 主目录路径
-    :return:[tmp_dir, input_dir]
+    :return:[tmp_dir, input_dir, res_dir]
     """
     tmp_dir = dir_path + "tmp\\"
     input_dir = dir_path + "input\\"
