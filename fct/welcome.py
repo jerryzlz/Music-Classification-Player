@@ -9,6 +9,7 @@ def window():
     """
     app = QtWidgets.QApplication(sys.argv)
     w = QtWidgets.QWidget()
+    w.setWindowIcon(QtGui.QIcon("images\\logo.ico"))
 
     btn_min = QtWidgets.QPushButton(w)
     btn_min.setStyleSheet('background-color:#00ff00;border-radius:5px;')

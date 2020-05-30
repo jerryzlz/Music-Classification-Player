@@ -60,8 +60,8 @@ def get_mfcc(file_path, sample_rate=22050, duration=30, segments=10, n_mfcc=13, 
     :param sample_rate: 采样率
     :param duration: 预处理剪切时长
     :param segments: 切片数量
-    :param n_mfcc: n维的音频特征
-    :param n_fft: 短时傅里叶变换大小
+    :param n_mfcc: 音频特征维度
+    :param n_fft: 快速傅里叶变换大小
     :param n_hop_length: 快速傅里叶变换步幅
     :return: data[mfcc, 文件名]
     """
@@ -107,8 +107,8 @@ def get_music_length(file_name):
     :param file_name: 文件名
     :return: 音频文件的时长（s）
     """
-    audio = mutagen.File(file_name)
-    return audio.info.length
+    length = librosa.get_duration(filename=file_name)
+    return length
 
 
 def get_song_info(file_name):
