@@ -27,6 +27,9 @@ README： [中文](README.md)  |  [English](README_EN.md)
 
 2. 打开终端运行`pyhton main.py`即可
 
+## Wiki
+正在编写…………
+
 ## 开源协议
 
 [MIT](LICENSE) © jerryzlz
