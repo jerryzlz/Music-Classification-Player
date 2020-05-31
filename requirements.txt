@@ -1,0 +1,7 @@
+ffmpeg==1.4
+librosa==0.7.2
+mutagen==1.44.0
+pydub==0.24.0
+pygame==1.9.6
+PyQt5==5.14.2
+tensorflow==2.2.0
