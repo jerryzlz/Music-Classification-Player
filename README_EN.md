@@ -19,12 +19,16 @@ Chlick here to download Pyhton
 2. Download Code
 Use`git@github.com:jerryzlz/Music-Classification-Player.git`or`https://github.com/jerryzlz/Music-Classification-Player/archive/master.zip`to download.
 
-3. Unzipped and run `pip3 install -r requirements.txt` in the current directory.
+3. Configure ffmpeg
+After select system download ffmpeg at https://ffmpeg.zeranoe.com/builds/. 
+When the download completed, unzip it into the `bin` folder and copy `ffprobe.exe``ffmpeg.exe``ffplay.exe` ,paste these files into the python installation directory or other environment variables.
+
+4. Unzipped and run `pip3 install -r requirements.txt` in the current directory.
 
 ## Usage
 1. Enter the directory where the program is located.
 
-2. Open the terminal and run `pyhton main.py`.
+2. Double click to run `pyhton main.py`.
 
 ## Wiki
 Writing…………
