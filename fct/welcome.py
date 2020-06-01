@@ -54,8 +54,12 @@ def window():
 
     w.setStyleSheet("background-color:rgb(28, 37, 41);")
     w.setWindowTitle("欢迎")
-    w.setGeometry(0, 20, 1280, 720)
+    w.setGeometry(5, 10, 1280, 720)
     w.setWindowFlag(QtCore.Qt.FramelessWindowHint)
+    pre_move = w.frameGeometry()
+    mov = QtWidgets.QDesktopWidget().availableGeometry().center()
+    pre_move.moveCenter(mov)
+    w.move(pre_move.topLeft())
     w.show()
     app.exec()
 
