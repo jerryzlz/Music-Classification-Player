@@ -445,7 +445,7 @@ class Index(QtWidgets.QWidget):
         self.play_time_t.setNum(self.minute)
 
         self.time = self.second + self.minute * 60
-        print(self.time)
+        # print(self.time)
         self.process.setValue(self.time)
 
         if self.timer == round(self.music_length):
@@ -462,8 +462,6 @@ class Index(QtWidgets.QWidget):
         self.file_box.clear()
         for i in range(len(self.filename)):
             self.file_box.insertItem(i, self.filename[i])
-        if pygame.mixer.music.get_busy():
-            print(pygame.mixer.music.get_busy())
 
     def play(self, genres):
         """
