@@ -13,8 +13,7 @@ README： [中文](README.md)  |  [English](README_EN.md)
 
 ## Install
 1. Install Python3.x
-Chlick here to download Pyhton
-`https://www.python.org/downloads/`
+Chlick here to download Pyhton https://www.python.org/downloads/
 
 2. Download Code
 Use`git@github.com:jerryzlz/Music-Classification-Player.git`or`https://github.com/jerryzlz/Music-Classification-Player/archive/master.zip`to download.
@@ -28,7 +27,7 @@ When the download completed, unzip it into the `bin` folder and copy `ffprobe.ex
 ## Usage
 1. Enter the directory where the program is located.
 
-2. Double click to run `pyhton main.py`.
+2. Double click `pyhton main.py` to run.
 
 ## Wiki
 Writing…………
