@@ -1,6 +1,8 @@
-from fct import file, welcome, interface
 import json
 import os
+from fct import file, welcome, interface
+import ctypes
+ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("player")
 
 dir_path = str(os.path.dirname(os.path.abspath(__file__))) + "\\"
 settings = json.load(open("settings.json", "r"))
@@ -17,4 +19,3 @@ app = interface.QtWidgets.QApplication(interface.sys.argv)
 win = interface.Index(dir_path, settings)
 win.show()
 interface.sys.exit(app.exec())
-
