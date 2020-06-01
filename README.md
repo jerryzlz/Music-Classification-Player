@@ -1,5 +1,5 @@
 # Music-Classification-Player
-A Music player for music classification based on artificial intelligence algorithm
+基于人工智能算法进行音乐分类的音乐播放器
 
 [![HitCount](http://hits.dwyl.com/jerryzlz/Music-Classification-Player.svg)](http://hits.dwyl.com/jerryzlz/Music-Classification-Player)
 
