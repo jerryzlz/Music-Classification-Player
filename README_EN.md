@@ -9,7 +9,7 @@ README： [中文](README.md)  |  [English](README_EN.md)
 - Clean and refreshing music player with classification function.
 - CNN algorithm is used for music classification, and more algorithms will be added later.
 - High classification accuracy.
-- The model is expandable, and comes with the source code of the training model, which can be used by yourself.
+- The model is expandable, and source code of the training model function also will be added later, which can be used by yourself.
 
 ## Install
 1. Install Python3.x
