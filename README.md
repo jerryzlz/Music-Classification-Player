@@ -19,7 +19,11 @@ README： [中文](README.md)  |  [English](README_EN.md)
 2. 下载源码。
 `git@github.com:jerryzlz/Music-Classification-Player.git`或使用`https://github.com/jerryzlz/Music-Classification-Player/archive/master.zip`下载。
 
-3. 解压后在当前目录下运行`pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`安装依赖环境。
+3. 配置`ffprobe`
+进入`https://ffmpeg.zeranoe.com/builds/`选择系统后下载。
+下载完成后解压进入到`bin`文件夹中，将`ffprobe.exe`复制粘贴到python的安装目录或其他环境变量中。
+
+4. 解压下载好的源码后在当前目录下运行`pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`安装依赖环境。
 
 ## 开始使用
 1. 进入程序所在目录。
