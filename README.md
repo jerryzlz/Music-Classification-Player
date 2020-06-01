@@ -21,7 +21,7 @@ README： [中文](README.md)  |  [English](README_EN.md)
 
 3. 配置`ffprobe`
 进入`https://ffmpeg.zeranoe.com/builds/`选择系统后下载。
-下载完成后解压进入到`bin`文件夹中，将`ffprobe.exe``ffmpeg.exe``ffplay.exe`复制粘贴到python的安装目录或其他环境变量中。
+下载完成后解压进入到`bin`文件夹中，将`ffprobe.exe`，`ffmpeg.exe`，`ffplay.exe`复制粘贴到python的安装目录或其他环境变量中。
 
 4. 解压下载好的源码后在当前目录下运行`pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`安装依赖环境。
 
