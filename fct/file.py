@@ -1,4 +1,5 @@
 import os
+import sys
 import shutil
 
 
@@ -68,8 +69,11 @@ def move_file(source, destination, file_name, label):
     :return:
     """
     for f in range(len(file_name)):
-        shutil.move(source + file_name[f], destination + label[f])
-        print("移动完成")
+        try:
+            shutil.move(source + file_name[f], destination + label[f])
+            print("移动完成")
+        except:
+            pass
 
 
 def first_run(status):
