@@ -28,7 +28,7 @@ README： [中文](README.md)  |  [English](README_EN.md)
 ## 开始使用
 1. 进入程序所在目录。
 
-2. 打开终端运行`pyhton main.py`即可。
+2. 双击打开`pyhton main.py`即可。
 
 ## Wiki
 正在编写…………
